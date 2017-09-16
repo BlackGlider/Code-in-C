@@ -1,0 +1,15 @@
+/* Programmazione in C, pag 51. n. 2, Esercizi */
+
+#include <stdio.h>
+
+int main(void)
+{
+    float  b;
+    
+    b = 68.934f;
+    
+    printf("|%-8.1e|%10.6e|%-8.3f|%6.f", b, b, b, b);
+    
+    return 0;
+    
+}
