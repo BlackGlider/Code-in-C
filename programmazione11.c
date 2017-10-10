@@ -27,6 +27,14 @@ int main(void)
     
     printf("%.2f/%.2f=%.2f\n", f, g, dov);
     
+    float f, g, dov;
+    
+    scanf("%f/%f", &f, &g);
+    
+    dov = f / g;
+    
+    printf("%.1f/%.1f=%.1f\n", f, g, dov);
+    
     
     
     
